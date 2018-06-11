@@ -250,7 +250,7 @@ function BasicIdeDemo(soln, world, starterCode, editable, finishedCallback) {
    return that;
 }
 
-function Unit12Lesson1(finishedCallback) {
+function Unit10Lesson1(finishedCallback) {
    var world = '7x7';
    var starterCode = 'midpointStarter.js';
    var unitTests = {
@@ -265,37 +265,37 @@ function Unit12Lesson1(finishedCallback) {
    return that; 
 }
 
-function Unit11Lesson2(finishedCallback) {
-   var solution = 'karelCode/randomLesson2.js';
-   var world = '9x9';
-   var starterCode = 'randomLesson2.js';
-   var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
-   return that;  
-}
-
-function Unit11Lesson1(finishedCallback) {
-   var solution = 'karelCode/randomLesson1.js';
-   var world = '9x9';
-   var starterCode = 'randomLesson1.js';
-   var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
-   return that;  
-}
-
-function Unit10Lesson2(finishedCallback) {
-   var solution = 'karelCode/colorLesson2.js';
-   var world = '3x6';
-   var starterCode = 'colorLesson2.js';
-   var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
-   return that; 
-}
-
-function Unit10Lesson1(finishedCallback) {
-   var solution = 'karelCode/colorLesson1.js';
-   var world = '2x2';
-   var starterCode = 'colorLesson1.js';
-   var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
-   return that; 
-}
+// function Unit11Lesson2(finishedCallback) {
+//    var solution = 'karelCode/randomLesson2.js';
+//    var world = '9x9';
+//    var starterCode = 'randomLesson2.js';
+//    var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
+//    return that;
+// }
+//
+// function Unit11Lesson1(finishedCallback) {
+//    var solution = 'karelCode/randomLesson1.js';
+//    var world = '9x9';
+//    var starterCode = 'randomLesson1.js';
+//    var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
+//    return that;
+// }
+//
+// function Unit10Lesson2(finishedCallback) {
+//    var solution = 'karelCode/colorLesson2.js';
+//    var world = '3x6';
+//    var starterCode = 'colorLesson2.js';
+//    var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
+//    return that;
+// }
+//
+// function Unit10Lesson1(finishedCallback) {
+//    var solution = 'karelCode/colorLesson1.js';
+//    var world = '2x2';
+//    var starterCode = 'colorLesson1.js';
+//    var that = BasicIdeDemo(solution, world, starterCode, false, finishedCallback);
+//    return that;
+// }
 
 function Unit9Lesson2(finishedCallback) {
    var world = 'column1';
