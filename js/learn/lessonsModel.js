@@ -46,8 +46,8 @@ LessonsModel.unitNames = [
    'Conditionals',
    'While',
    'If',
-   'Color',
-   'Random',
+   // 'Color',
+   // 'Random',
    'Midpoint',
 ]
 

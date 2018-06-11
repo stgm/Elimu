@@ -2,7 +2,7 @@ function importWebsiteHeader(selected) {
    var tabsData = {
       'learn.html':'Learn',
       'ide.html':'Karel IDE',
-      'share.html':'Community',
+      // 'share.html':'Community',
    }
    var tabHtml = '';
    for (key in tabsData) {
@@ -126,7 +126,7 @@ function importEditor(id, parentId) {
 
 function importButtonBar() {
    var buttonBar = document.getElementById('buttonBarInner');
-   var playButton = createImageButton(buttonBar, 'images/uploadButton.png', 'uploadButton', 'Share');
+   // var playButton = createImageButton(buttonBar, 'images/uploadButton.png', 'uploadButton', 'Share');
    //addSpace(buttonBar);
    var playButton = createImageButton(buttonBar, 'images/playButton.png', 'playButton', 'Run');
    //addSpace(buttonBar);
